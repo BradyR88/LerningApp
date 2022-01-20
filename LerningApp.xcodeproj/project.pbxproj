@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233A65EC2798EF6B0068D5D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233A65EB2798EF6B0068D5D3 /* ContentView.swift */; };
 		2385435727934712002B1260 /* LerningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385435627934712002B1260 /* LerningApp.swift */; };
 		2385435927934712002B1260 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2385435827934712002B1260 /* HomeView.swift */; };
 		2385435B27934713002B1260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2385435A27934713002B1260 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		233A65EB2798EF6B0068D5D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2385435327934712002B1260 /* LerningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LerningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2385435627934712002B1260 /* LerningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LerningApp.swift; sourceTree = "<group>"; };
 		2385435827934712002B1260 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			children = (
 				2385435827934712002B1260 /* HomeView.swift */,
 				2385437127947AFB002B1260 /* HomeViewRow.swift */,
+				233A65EB2798EF6B0068D5D3 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			files = (
 				2385435927934712002B1260 /* HomeView.swift in Sources */,
 				2385437227947AFB002B1260 /* HomeViewRow.swift in Sources */,
+				233A65EC2798EF6B0068D5D3 /* ContentView.swift in Sources */,
 				2385435727934712002B1260 /* LerningApp.swift in Sources */,
 				2385436A279348D3002B1260 /* ContentModel.swift in Sources */,
 				2385437027935B5C002B1260 /* Models.swift in Sources */,
