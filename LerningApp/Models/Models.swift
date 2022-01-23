@@ -20,10 +20,10 @@ struct Content: Decodable, Identifiable {
     var image: String
     var time: String
     var description: String
-    var lessons: [Lessons]
+    var lessons: [Lesson]
 }
 
-struct Lessons: Decodable, Identifiable {
+struct Lesson: Decodable, Identifiable {
     var id: Int
     var title: String
     var video: String
