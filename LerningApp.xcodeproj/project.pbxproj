@@ -20,6 +20,7 @@
 		23E0A5C0279A266A00E8E725 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0A5BF279A266A00E8E725 /* ContentDetailView.swift */; };
 		23E0A5C3279A2F0400E8E725 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E0A5C2279A2F0400E8E725 /* AVKit.framework */; };
 		23E0A5C5279A305E00E8E725 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0A5C4279A305E00E8E725 /* Constants.swift */; };
+		23E0A5C7279E084600E8E725 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0A5C6279E084600E8E725 /* CodeTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		23E0A5BF279A266A00E8E725 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		23E0A5C2279A2F0400E8E725 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		23E0A5C4279A305E00E8E725 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		23E0A5C6279E084600E8E725 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				2385437127947AFB002B1260 /* HomeViewRow.swift */,
 				233A65EB2798EF6B0068D5D3 /* ContentView.swift */,
 				23E0A5BF279A266A00E8E725 /* ContentDetailView.swift */,
+				23E0A5C6279E084600E8E725 /* CodeTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				23E0A5C0279A266A00E8E725 /* ContentDetailView.swift in Sources */,
 				2385435727934712002B1260 /* LerningApp.swift in Sources */,
 				2385436A279348D3002B1260 /* ContentModel.swift in Sources */,
+				23E0A5C7279E084600E8E725 /* CodeTextView.swift in Sources */,
 				2385437027935B5C002B1260 /* Models.swift in Sources */,
 				23E0A5C5279A305E00E8E725 /* Constants.swift in Sources */,
 			);
