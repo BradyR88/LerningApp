@@ -79,12 +79,22 @@ struct TestView: View {
                 
                 // submit Button
                 Button {
-                    
-                    submitted = true
-                    
-                    if selectedAnswerIndex == model.currentQuestion!.correctIndex {
-                        numCorrect += 1
+                    // check if answer has ben submited
+                    if submitted == true {
+                        // answer has alredy ben submited so move to the next question
+                        model.nextQuestion()
+                        submitted = false
+                        selectedAnswerIndex = nil
                     }
+                    else {
+                        submitted = true
+                        
+                        if selectedAnswerIndex == model.currentQuestion!.correctIndex {
+                            numCorrect += 1
+                    }
+                    
+                    }
+                    
                 } label: {
                     ZStack {
                         RectangleCard(color: .green)
