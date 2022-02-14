@@ -23,6 +23,7 @@
 		23E0A5C3279A2F0400E8E725 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E0A5C2279A2F0400E8E725 /* AVKit.framework */; };
 		23E0A5C5279A305E00E8E725 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0A5C4279A305E00E8E725 /* Constants.swift */; };
 		23E0A5C7279E084600E8E725 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0A5C6279E084600E8E725 /* CodeTextView.swift */; };
+		73113BF627B95D0700D6F5AB /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73113BF527B95D0700D6F5AB /* TestResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		23E0A5C2279A2F0400E8E725 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		23E0A5C4279A305E00E8E725 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		23E0A5C6279E084600E8E725 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		73113BF527B95D0700D6F5AB /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				233A65EB2798EF6B0068D5D3 /* ContentView.swift */,
 				23E0A5BF279A266A00E8E725 /* ContentDetailView.swift */,
 				23ABDA6D27A4C470000C3B52 /* TestView.swift */,
+				73113BF527B95D0700D6F5AB /* TestResultView.swift */,
 				23E0A5C6279E084600E8E725 /* CodeTextView.swift */,
 				239E7F4B27A0E23300C4A6A9 /* RectangleCard.swift */,
 			);
@@ -233,6 +236,7 @@
 				2385435727934712002B1260 /* LerningApp.swift in Sources */,
 				2385436A279348D3002B1260 /* ContentModel.swift in Sources */,
 				23E0A5C7279E084600E8E725 /* CodeTextView.swift in Sources */,
+				73113BF627B95D0700D6F5AB /* TestResultView.swift in Sources */,
 				2385437027935B5C002B1260 /* Models.swift in Sources */,
 				23E0A5C5279A305E00E8E725 /* Constants.swift in Sources */,
 			);
